@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution Chapter 38 - 42</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p id="form_data">
+        Form Data Will Be Show Here!
+        <br>
+    </p>
+    <form action="" >
+        <h1>Creat an account</h1>
+        <div class="form_group">
+          <label for="">Name:</label>
+          <input id="name" type="text" required placeholder="Enter your name:">
+      </div>
+      <div class="form_group">
+          <label for="">Email:</label>
+          <input id="email" type="Email" required placeholder="Enter your Email:">
+      </div>
+      <div class="form_group">
+          <label for="">Phone:</label>
+          <input id="num" type="number" required placeholder="Enter your number:">
+      </div>
+      <div class="form_group">
+          <label for="">password:</label>
+          <input id="pass" type="text" required placeholder="Enter your password:">
+      </div>
+        
+        <input type="button" onclick="submits()"  value="submit">
+    </form>
+
+
+
+    <div class="q1para">
+ 
+         <p id="itemdetails"> this item is very good <a href="javaScript:void(0)" onclick="readmore()" >readmore</a> </p>
+
+
+    </div>
+
+    <br><br><br><br><br>
+
+    <div>
+        <label for="">Name</label> <input type="text" id="name" >
+        <br>
+        <label for="">Phone no</label> <input type="text" name="" id="phonenum">
+        <br>
+        <label for="">order no</label>
+        <input type="text" id="ordernum">
+        <button onclick="addtotable()" >Add to table</button>
+    </div>
+
+    <br><br><br>
+
+    <div>
+        <table id="myTable1" border="1px">
+            <tr>
+                <th colspan="4"><h1>Data will be stored here</h1></th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Phone no</th>
+                <th>Order no</th>
+            </tr>
+        </table>
+    </div>
+
+
+
+   
+    
+
+
+   
+   
+     
+    
+</body>
+<script src="app.js"></script>
+</html>
